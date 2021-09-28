@@ -1,7 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <input id="user-input">
+    <input type="range" min="16" max="150" value="67" class="slider" id="range-input" onchange="formFunction()">
+
+    <div class="container">
+        <div class="bar"></div>
+        <div class="dumbell">
+            <div class="lock nut"></div>
+            <div class="lock"></div>
+            <div class="space"></div>
+            <div class="lock"></div>
+            <div class="lock nut"></div>
+        </div>
+    </div>
+
+    <label for="select-weight">Pick dumbell weight:</label>
+    <select name="select-weight" id="dumb">
+        <option value="1">1.66</option>
+        <option value="2">2.8</option>
+        <option value="3">3.9</option>
+        <option value="4">4.2</option>
+        <option value="5">5.3</option>
+        <option value="6">6.5</option>
+        <option value="7">7.8</option>
+        <option value="8">8.9</option>
+        <option value="9">9.2</option>
+        <option value="10">10.3</option>
+        <option value="11">11.4</option>
+        <option value="12">12.6</option>
+        <option value="13">13.7</option>
+        <option value="14">14.8</option>
+    </select>
+
 </body>
+<script src="script.js"></script>
+
 </html>

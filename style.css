@@ -1,0 +1,96 @@
+* {
+    --h-large: 11rem;
+    --h-medium: 10rem;
+    --h-small: 8rem;
+    --h-x-small: 6rem;
+}
+
+body {
+    background-color: rgb(109, 109, 109);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: var(--h-large);
+}
+
+.dumbell {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    max-width: 26rem;
+    margin: 0 auto;
+}
+
+.space {
+    width: 8rem;
+}
+
+.bar {
+    justify-self: center;
+    z-index: -1;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin:0 auto;
+    width: 24rem;
+    height: 1.5rem;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background: linear-gradient(#f0f0f0, #f1f1f1, #ffffff, #b8b8b8, #747474, #d8d8d8);
+}
+
+.weight {
+    margin: 0;
+    background: linear-gradient(#c5c5c5, #6b6b6b, #b1b1b1,#242424, #080808, #474747);
+    color: rgb(206, 206, 206);
+    border-radius: 20%;
+    position: relative;
+    font-size: xx-small;
+    min-width: 1.4rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    border-top: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(124, 124, 124);
+}
+
+.large {
+    height: var(--h-large);
+    line-height: var(--h-large);
+}
+
+.medium {
+    height: var(--h-medium);
+    line-height: var(--h-medium);
+    width: 1.3rem;
+}
+
+.small {
+    height: var(--h-small);
+    line-height: var(--h-small);
+    width: 1.1rem;
+}
+
+.x-small {
+    height: var(--h-x-small);
+    line-height: var(--h-x-small);
+    width: 1rem;
+}
+
+.lock {
+    height: 2.5rem;
+    width: 0.7rem;
+    background: linear-gradient(#f0f0f0, #f1f1f1, #ffffff, #b8b8b8, #747474, #d8d8d8);
+    color: rgb(206, 206, 206);
+    font-size: xx-small;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.nut {
+    height: 4.2rem;
+    background: linear-gradient(#f0f0f0, #bebebe, #ffffff, #bebebe, #ffffff, #b8b8b8, #ffffff, #747474, #d8d8d8);
+}
