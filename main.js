@@ -2,7 +2,15 @@ import './style.css'
 
 import * as THREE from 'https://cdn.skypack.dev/three';
 
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import {
+  Camera,
+  Material,
+  Texture,
+} from "https://cdn.skypack.dev/three";
+
+import { OrbitControls } from "https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js";
+
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass';
